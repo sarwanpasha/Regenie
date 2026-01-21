@@ -29,7 +29,7 @@ A portable, user-friendly pipeline for running genome-wide association studies (
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/sarwanpasha/Regenie.git
-cd regenie-gwas-pipeline
+cd Regenie
 ```
 
 ### 2. Make the script executable
