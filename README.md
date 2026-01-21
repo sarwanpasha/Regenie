@@ -266,8 +266,8 @@ For HPC environments, you can submit the pipeline as a job:
 #SBATCH --mem=32G
 #SBATCH --cpus-per-task=8
 
-module load Plink/1.9.10
-module load R/4.5.2
+module load Plink_Version
+module load R_Version
 
 ./run_regenie_gwas.sh \
   -b /path/to/data \
@@ -292,7 +292,7 @@ If you use this pipeline, please cite:
 
 ## License
 
-MIT License - see LICENSE file for details
+MIT License
 
 ## Contributing
 
@@ -310,7 +310,7 @@ For issues and questions:
 
 ## Authors
 
-[Your Name] - Initial work
+Sarwan Ali
 
 ## Acknowledgments
 
